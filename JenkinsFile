@@ -8,7 +8,7 @@ pipeline {
                     echo "Multiline shell steps works too......"
                     ls -lah
                     cd /Users/cramapra/ddrive/NextGen/helidon-quickstart-mp-extended
-                    mvn package
+                    /Users/cramapra/cdrive/apps/apache-maven-3.6.1/bin/mvn package
                 '''
             }
         }
